@@ -39,9 +39,9 @@ git clone https://github.com/your-username/Audio-Stream.git
 cd Audio-Stream
 ```
 
-#### 2. **Install Dependencies and Setup Signaling Server**
+#### 2. **Setup Signaling Server**
 ```bash
-npm install
+cd server
 node server.js
 ```
 This will start the signaling server on `localhost:8080`.
