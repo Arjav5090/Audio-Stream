@@ -42,7 +42,8 @@ cd Audio-Stream
 #### 2. **Setup Signaling Server**
 ```bash
 cd server
-node server.js
+npm install
+node index.js
 ```
 This will start the signaling server on `localhost:8080`.
 #### 3. **Run the Application**
